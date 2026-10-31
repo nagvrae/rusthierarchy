@@ -1,0 +1,12 @@
+[package]
+name = "rusthierarchy"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = ["strict", "extra", "debug_impls"]
+strict = []
+extra = []
+debug_impls = []
+
+[dependencies]
